@@ -43,6 +43,8 @@ Per [3], here is a published list from Microsoft (but [3] doesn't give the sourc
 - Weak ACLs in the registry
 - Weak ACLs on shares
 
+[4] also provides a list to help identify the attack surface.
+
 ### 2.2 History of known vulnerabilities in previous development
 
 The second source is the history of known vulnerabilities associated with previous development. Per [3], "Determining the root cause of old vulnerabilities is good for fixing them and preventing future occurrences, and it is also valuable information that can be used in determining the attack surface."
@@ -61,8 +63,30 @@ Bottom line: **The larger the number is, the greater the risk.**
 
 However, **the success of attacks means the code has flaws** that can be exploited by the attackers.
 
+## 5. Comparison
+
+Because every software product is different, it makes no sense to compare the attack surface measurements from different products.
+
+However, it may make sense to compare the historical attack surface measurements of the same product.
+
+## 6. Minimization
+
+Per [3]:
+
+> Minimization is a form of least privilege.
+
+The point is: only enable a function when it is needed; otherwise, disable it.
+
+## 7. In development process
+
+- The attack surface should be calculated and documented throughout the development process. Two purposes:
+  - **Development team** can use to evaluate the if the attack surface is under control and reasonable.
+    - Minimization doesn't always mean reducing the number of attack surface elements, because sometimes an added feature inevitably enlarge the attack surface.
+  - The information can be provided to the **customers** so "they can make informed decisions as they determine specific deployment options".
+
 ## References
 
 - [1] [Wikipedia: Attack surface](https://en.wikipedia.org/wiki/Attack_surface)
 - [2] [NIST: Computer Security Resource Center: attack surface](https://csrc.nist.gov/glossary/term/attack_surface)
-- [3] [CSSLP Certification Exam Guide (2e)](https://www.amazon.com/CSSLP-Certification-All-Guide-Second/dp/1260441687)
+- [3] [CSSLP Certification Exam Guide (2e)](https://www.amazon.com/CSSLP-Certification-All-Guide-Second/dp/1260441687): Chapter 8: Design Process
+- [4] [OWASP: Attack Surface Analysis Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html)
