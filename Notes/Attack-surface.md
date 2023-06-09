@@ -88,5 +88,5 @@ The point is: only enable a function when it is needed; otherwise, disable it.
 
 - [1] [Wikipedia: Attack surface](https://en.wikipedia.org/wiki/Attack_surface)
 - [2] [NIST: Computer Security Resource Center: attack surface](https://csrc.nist.gov/glossary/term/attack_surface)
-- [3] [CSSLP Certification Exam Guide (2e)](https://www.amazon.com/CSSLP-Certification-All-Guide-Second/dp/1260441687): Chapter 8: Design Process
+- [3] [FUR-CSSLP]: Chapter 8: Design Process
 - [4] [OWASP: Attack Surface Analysis Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html)
