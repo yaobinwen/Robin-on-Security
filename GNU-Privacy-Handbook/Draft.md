@@ -11,6 +11,10 @@
 - [Best encryption and signing algorithm for GnuPG: RSA/RSA or DSA/Elgamal?](https://superuser.com/a/541162/224429)
 - [Recommendation for Key Management: Part 1 – General](https://csrc.nist.gov/publications/detail/sp/800-57-part-1/rev-5/final)
 - [Encryption and Digital Signatures using GPG](https://cran.r-project.org/web/packages/gpg/vignettes/intro.html)
+- About photo IDs:
+  - [Creating a small JPEG photo for your OpenPGP key](https://blog.josefsson.org/2014/06/19/creating-a-small-jpeg-photo-for-your-openpgp-key/)
+- About signature's expiration date and why it makes sense: [Set date for signature to expire](https://lists.gnupg.org/pipermail/gnupg-users/2005-June/025874.html)
+  - See [this message](https://lists.gnupg.org/pipermail/gnupg-users/2005-June/025934.html): "However the second one does have a reasonable reason for signature expiration."
 
 ## What to Learn
 
